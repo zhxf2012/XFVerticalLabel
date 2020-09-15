@@ -5,7 +5,7 @@
 //  Created by Xingfa Zhou on 2020/9/14.
 //  Copyright © 2020 XF. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 import CoreText
 
@@ -22,7 +22,7 @@ public class XFVerticalLabel: UIView {
 //        static let centerY = TextBaseLine.init(rawValue: 0x1000000)
 //    }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = .clear
     }
@@ -238,3 +238,4 @@ public class XFVerticalLabel: UIView {
         CTFrameDraw(frame, context);
     }
 }
+#endif

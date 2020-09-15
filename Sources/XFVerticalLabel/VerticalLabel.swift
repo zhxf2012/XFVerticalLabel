@@ -8,14 +8,16 @@
 
 
 import SwiftUI
+#if canImport(UIKit)
+import UIKit
 
 @available(iOS 13.0, OSX 10.15, *)
 public struct VerticalLabel {
     var text: String
     var font: UIFont
     var textColor: UIColor
-    var lineSpace: CGFloat = 2
-    var wordSpace: CGFloat = 0
+    var lineSpace: CGFloat
+    var wordSpace: CGFloat
 }
 
 extension VerticalLabel: UIViewRepresentable {
@@ -44,6 +46,7 @@ extension VerticalLabel: UIViewRepresentable {
 
 struct VerticalLabel_Previews: PreviewProvider {
     static var previews: some View {
-        VerticalLabel(text: "今天天气不错，It is a good day today", font: .systemFont(ofSize: 16), textColor: .red)
+        VerticalLabel(text: "今天天气不错，It is a good day today", font: .systemFont(ofSize: 16), textColor: .red,lineSpace: 5,wordSpace: 2)
     }
 }
+#endif

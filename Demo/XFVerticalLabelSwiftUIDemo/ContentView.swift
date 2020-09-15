@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import XFVerticalLabel
 
 struct ContentView: View {
     @State var text = "你好世界 今天天气不错。此段话应该是从上到下 从右往左布局，结束。"

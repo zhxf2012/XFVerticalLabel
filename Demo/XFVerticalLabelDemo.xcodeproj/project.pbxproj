@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,16 +13,14 @@
 		833BAAFA250F49F700A07DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833BAAF8250F49F700A07DFD /* Main.storyboard */; };
 		833BAAFC250F49FA00A07DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833BAAFB250F49FA00A07DFD /* Assets.xcassets */; };
 		833BAAFF250F49FA00A07DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833BAAFD250F49FA00A07DFD /* LaunchScreen.storyboard */; };
-		833BAB0B250F4CE800A07DFD /* XFVerticalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BAB0A250F4CE800A07DFD /* XFVerticalLabel.swift */; };
 		833BAB1525109CEB00A07DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BAB1425109CEB00A07DFD /* AppDelegate.swift */; };
 		833BAB1725109CEB00A07DFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BAB1625109CEB00A07DFD /* SceneDelegate.swift */; };
 		833BAB1925109CEB00A07DFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BAB1825109CEB00A07DFD /* ContentView.swift */; };
 		833BAB1B25109CEE00A07DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833BAB1A25109CEE00A07DFD /* Assets.xcassets */; };
 		833BAB1E25109CEE00A07DFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833BAB1D25109CEE00A07DFD /* Preview Assets.xcassets */; };
 		833BAB2125109CEE00A07DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833BAB1F25109CEE00A07DFD /* LaunchScreen.storyboard */; };
-		833BAB2625109D0400A07DFD /* XFVerticalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BAB0A250F4CE800A07DFD /* XFVerticalLabel.swift */; };
-		833BAB2825109D6F00A07DFD /* VerticalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BAB2725109D6F00A07DFD /* VerticalLabel.swift */; };
-		833BAB2925109D6F00A07DFD /* VerticalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BAB2725109D6F00A07DFD /* VerticalLabel.swift */; };
+		839B8E2B2510DAAE00A15919 /* XFVerticalLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 839B8E2A2510DAAE00A15919 /* XFVerticalLabel */; };
+		839B8E2E2510DDC900A15919 /* XFVerticalLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 839B8E2D2510DDC900A15919 /* XFVerticalLabel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +32,6 @@
 		833BAAFB250F49FA00A07DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833BAAFE250F49FA00A07DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		833BAB00250F49FA00A07DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		833BAB0A250F4CE800A07DFD /* XFVerticalLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XFVerticalLabel.swift; sourceTree = "<group>"; };
 		833BAB1225109CEB00A07DFD /* XFVerticalLabelSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFVerticalLabelSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833BAB1425109CEB00A07DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833BAB1625109CEB00A07DFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +40,6 @@
 		833BAB1D25109CEE00A07DFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		833BAB2025109CEE00A07DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		833BAB2225109CEF00A07DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		833BAB2725109D6F00A07DFD /* VerticalLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839B8E2B2510DAAE00A15919 /* XFVerticalLabel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839B8E2E2510DDC900A15919 /* XFVerticalLabel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,10 +65,10 @@
 		833BAAE6250F49F700A07DFD = {
 			isa = PBXGroup;
 			children = (
-				833BAB06250F4A6500A07DFD /* Sources */,
 				833BAAF1250F49F700A07DFD /* XFVerticalLabelDemo */,
 				833BAB1325109CEB00A07DFD /* XFVerticalLabelSwiftUIDemo */,
 				833BAAF0250F49F700A07DFD /* Products */,
+				839B8E2C2510DDC900A15919 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,23 +95,6 @@
 			path = XFVerticalLabelDemo;
 			sourceTree = "<group>";
 		};
-		833BAB06250F4A6500A07DFD /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				833BAB07250F4A6500A07DFD /* XFVerticalLabel */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		833BAB07250F4A6500A07DFD /* XFVerticalLabel */ = {
-			isa = PBXGroup;
-			children = (
-				833BAB0A250F4CE800A07DFD /* XFVerticalLabel.swift */,
-				833BAB2725109D6F00A07DFD /* VerticalLabel.swift */,
-			);
-			path = XFVerticalLabel;
-			sourceTree = "<group>";
-		};
 		833BAB1325109CEB00A07DFD /* XFVerticalLabelSwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +117,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		839B8E2C2510DDC900A15919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +140,9 @@
 			dependencies = (
 			);
 			name = XFVerticalLabelDemo;
+			packageProductDependencies = (
+				839B8E2A2510DAAE00A15919 /* XFVerticalLabel */,
+			);
 			productName = XFVerticalLabelDemo;
 			productReference = 833BAAEF250F49F700A07DFD /* XFVerticalLabelDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -169,6 +160,9 @@
 			dependencies = (
 			);
 			name = XFVerticalLabelSwiftUIDemo;
+			packageProductDependencies = (
+				839B8E2D2510DDC900A15919 /* XFVerticalLabel */,
+			);
 			productName = XFVerticalLabelSwiftUIDemo;
 			productReference = 833BAB1225109CEB00A07DFD /* XFVerticalLabelSwiftUIDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -200,6 +194,9 @@
 				Base,
 			);
 			mainGroup = 833BAAE6250F49F700A07DFD;
+			packageReferences = (
+				839B8E292510DAAE00A15919 /* XCRemoteSwiftPackageReference "XFVerticalLabel" */,
+			);
 			productRefGroup = 833BAAF0250F49F700A07DFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,9 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				833BAAF7250F49F700A07DFD /* ViewController.swift in Sources */,
-				833BAB2825109D6F00A07DFD /* VerticalLabel.swift in Sources */,
 				833BAAF3250F49F700A07DFD /* AppDelegate.swift in Sources */,
-				833BAB0B250F4CE800A07DFD /* XFVerticalLabel.swift in Sources */,
 				833BAAF5250F49F700A07DFD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,8 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833BAB2625109D0400A07DFD /* XFVerticalLabel.swift in Sources */,
-				833BAB2925109D6F00A07DFD /* VerticalLabel.swift in Sources */,
 				833BAB1525109CEB00A07DFD /* AppDelegate.swift in Sources */,
 				833BAB1725109CEB00A07DFD /* SceneDelegate.swift in Sources */,
 				833BAB1925109CEB00A07DFD /* ContentView.swift in Sources */,
@@ -505,6 +498,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		839B8E292510DAAE00A15919 /* XCRemoteSwiftPackageReference "XFVerticalLabel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zhxf2012/XFVerticalLabel";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		839B8E2A2510DAAE00A15919 /* XFVerticalLabel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 839B8E292510DAAE00A15919 /* XCRemoteSwiftPackageReference "XFVerticalLabel" */;
+			productName = XFVerticalLabel;
+		};
+		839B8E2D2510DDC900A15919 /* XFVerticalLabel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 839B8E292510DAAE00A15919 /* XCRemoteSwiftPackageReference "XFVerticalLabel" */;
+			productName = XFVerticalLabel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 833BAAE7250F49F700A07DFD /* Project object */;
 }

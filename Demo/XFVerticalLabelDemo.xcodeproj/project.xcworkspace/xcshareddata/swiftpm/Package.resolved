@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "XFVerticalLabel",
+        "repositoryURL": "https://github.com/zhxf2012/XFVerticalLabel",
+        "state": {
+          "branch": "master",
+          "revision": "f1492fba5e1e55ffe58df7937fa058cce70b9cd6",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

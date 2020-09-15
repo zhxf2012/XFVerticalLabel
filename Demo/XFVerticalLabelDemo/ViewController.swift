@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreText
+import XFVerticalLabel
 
 class ViewController: UIViewController {
 

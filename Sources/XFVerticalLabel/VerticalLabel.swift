@@ -19,7 +19,7 @@ public struct VerticalLabel {
     var lineSpace: CGFloat
     var wordSpace: CGFloat
     
-    init(text: String,font: UIFont = .systemFont(ofSize: 16),textColor: UIColor = .darkText,lineSpace: CGFloat = 5, wordSpace: CGFloat = 0) {
+    public init(text: String,font: UIFont = .systemFont(ofSize: 16),textColor: UIColor = .darkText,lineSpace: CGFloat = 5, wordSpace: CGFloat = 0) {
         self.text = text
         self.font = font
         self.textColor = textColor

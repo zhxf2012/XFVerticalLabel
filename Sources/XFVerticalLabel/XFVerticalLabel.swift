@@ -31,7 +31,7 @@ public class XFVerticalLabel: UIView {
         super.init(coder: coder)
     }
     
-    var font: UIFont = .systemFont(ofSize: 16) {
+    public  var font: UIFont = .systemFont(ofSize: 16) {
         didSet {
             if oldValue != font {
                 needUpdateAttributedText = true
@@ -47,7 +47,7 @@ public class XFVerticalLabel: UIView {
 //        }
 //    }
 
-    var textColor: UIColor = .darkText {
+    public var textColor: UIColor = .darkText {
         didSet {
             if oldValue != textColor {
                 needUpdateAttributedText = true
@@ -55,7 +55,7 @@ public class XFVerticalLabel: UIView {
         }
     }
     
-    var lineSpace: CGFloat = 15 {
+   public var lineSpace: CGFloat = 15 {
         didSet {
             if oldValue != lineSpace {
                 needUpdateAttributedText = true
@@ -63,7 +63,7 @@ public class XFVerticalLabel: UIView {
         }
     }
     
-    var wordSpace: CGFloat = 2 {
+   public var wordSpace: CGFloat = 2 {
         didSet {
             if oldValue != wordSpace {
                 needUpdateAttributedText = true
@@ -79,7 +79,7 @@ public class XFVerticalLabel: UIView {
 //        }
 //    }
     
-    var text: String = "" {
+   public var text: String = "" {
         didSet {
             if oldValue != text {
                 needUpdateAttributedText = true

@@ -1,6 +1,6 @@
 # XFVerticalLabel
 
-A lightway subclass of uiview for renter text vertical in Swift and SwiftUI. Impletement by CoreText.
+A lightway subclass of uiview for render text vertical in Swift and SwiftUI. Implement by CoreText.
 
  ### Pull requests and suggestions welcome :)
 <a href="https://github.com/zhxf2012/XFVerticalLabel/issues">Report Bug</a>  ·  <a href="https://github.com/zhxf2012/XFVerticalLabel/issues">Suggest a feature</a>
@@ -23,7 +23,7 @@ Alternatively, if you're unable to use SPM for some reason, you can import it Ma
 Add  Folder ` XFVerticalLabel` (Which contained 'XFVerticalLabel.swift' and ‘VerticalLabel.swift’)   to your project.
 
 ## Refrence
-Some part of implentment refrence from:
+Some key part of implentment refrence from:
 
 https://github.com/luwei2012/CoreTextView
 https://github.com/masuhara/VerticalTextSample
